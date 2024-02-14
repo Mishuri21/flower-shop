@@ -1,57 +1,274 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Lato", sans-serif;
 }
-header{
+
+header {
     background-color: rgba(229, 84, 115, 0.10);
 }
+
 /* banner section styles */
-.banner{
+.container {
     width: 80%;
     max-width: 1450px;
-    margin: 0px auto;
+    margin: 50px auto;
+}
+
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0px;
 }
-.banner-content{
+
+.banner-content {
     width: 48%;
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 30px;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 30px;
 }
-.banner-btn{
+
+.banner-btn {
     border-radius: 6px;
     background: #E55473;
     color: white;
     border: 1px solid #E55473;
     padding: 15px 35px;
     cursor: pointer;
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
-.banner-btn:hover{
+
+.banner-btn:hover {
     background-color: transparent;
     color: #E55473;
     border: 1px solid #E55473;
     transition: all 0.5s;
-    
+
 }
-.banner-img{
+
+.banner-img {
     width: 48%;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     vertical-align: middle;
 }
+
 /* banner section styles end */
+
+/* features section styles start */
+.features-section {
+    /* border: #E55473 solid 2px */
+}
+
+.features {
+    /* border: #E55473 solid 2px; */
+
+}
+
+.features-content {
+    max-width: 594px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.features-content>h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.features-content>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 25px 0px;
+}
+
+.features-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.flower {}
+
+.flower-item {
+    background-color: rgba(229, 84, 115, 0.10);
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0px;
+    height: 470px;
+    display: flex;
+    align-items: end;
+}
+
+.flower-item img {
+    width: 100%;
+
+}
+
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.sky {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.gray {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower p {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 900px;
+}
+
+
+.another-feature {
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.another-feature-box p {
+    margin-top: 25px;
+}
+
+/* discount styles area */
+.discount {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discount-box-1 {
+    width: 590px;
+    text-align: center;
+}
+
+.discount-title {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px
+}
+
+.discount-title>span {
+    color: #E55473;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.discount-btn {
+    background-color: #E55473;
+    color: white;
+    border: none;
+    padding: 20px 43px 20px 43px;
+    border-radius: 6px;
+}
+
+
+/* instagram styles */
+.instagram-content {
+    text-align: center;
+}
+
+.instagram-content>h2 {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-content>p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+
+.instagram-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.instagram-box img {
+    width: 100%;
+}
+
+
+
+.footer {
+    background: rgb(17, 16, 16);
+    /* height: 500px; */
+    padding: 100px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+.footer-title>span {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 30px; */
+}
